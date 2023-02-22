@@ -35,8 +35,8 @@ body {
   }
   p{
     width: 500px;
-    position: absolute;
-    left:  36%;
+    position: fixed;
+    left:  37%;
     top: 25%;
     font-family:monospace;
   line-height: 1.5;
@@ -48,17 +48,17 @@ body {
   z-index: 99;
   }
   .alcove{
-    position: absolute;
-    top: 12vh;
-    left: 60vh;
+    position: fixed;
+    top: 12%;
+    left: 31%;
     width: 200px;
     mix-blend-mode:multiply;
 
   }
   .alcove2{
-    position: absolute;
-    top: -2vh;
-    left: 47vh;
+    position: fixed;
+    top: 1%;
+    left: 24%;
     width: 300px;
     mix-blend-mode:multiply;
 
