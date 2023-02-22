@@ -38,24 +38,28 @@ body {
 #container {
     position: relative;
   }
-
+  p{
+    font-family:monospace;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    opacity:100%;
+    z-index: 99;
+  }
   .draggable-element {
     height:300px;
     width: 480px;
-    background-color:#1f1e20;
+    background-color: rgba(39, 39, 39, 0.315);
     border-radius: 50% ;
     position: absolute;
     cursor: move;
-    opacity:30%;
     left:  30%;
     top: 35%;
-    font-family:monospace;
-  line-height: 1.1;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 13px;
-  text-align: center;
+    
   }
+  
 .kanji20{
     position: absolute;
     top: 20vh;
