@@ -2,7 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
     cursor: none;
+    background-image: url("Asset 57.png");
     background-color: #9B8D79;
+   
   }
   .bg {
     position: fixed;

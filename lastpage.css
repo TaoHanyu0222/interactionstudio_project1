@@ -77,7 +77,8 @@ body {
     font-weight: 400;
     color:#2e2e2e;
     filter: blur(1px);
-    font-size: 20px;   
+    font-size: 20px;  
+    z-index: 99; 
         }
   
   .back:hover{
@@ -88,7 +89,8 @@ body {
     line-height: 1.1;
     font-weight: 400;
     color: #2e2e2e;
-    font-size: 20px;   
+    font-size: 20px;
+    z-index: 99;    
         }
   
   .next{
@@ -100,8 +102,9 @@ body {
     font-weight: 400;
     color:#2e2e2e;
     filter: blur(1px);
-    font-size: 20px;   
-        }
+    font-size: 20px;  
+    z-index: 99;  
+  }
   .next:hover{
           position: fixed;
           left:95%;
@@ -110,5 +113,6 @@ body {
           line-height: 1.1;
           font-weight: 400;
           color: #2e2e2e;
-          font-size: 20px;   
+          font-size: 20px; 
+          z-index: 99;   
               }
