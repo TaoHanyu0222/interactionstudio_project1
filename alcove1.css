@@ -44,6 +44,8 @@ body {
   color: #ffffff;
   font-size: 13px;
   text-align: center;
+  opacity: 80%;
+  z-index: 99;
   }
   .alcove{
     position: absolute;
