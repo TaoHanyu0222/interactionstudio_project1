@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #adadad;
+    height: 100vh;
+    width: 100vh;
+  }
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 800vh;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .9;
+    visibility: visible;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
+  .kanji1{
+    position: absolute;
+    top: 35vh;
+    left: 33vh;
+    filter: blur(2px);
+    width: 50px;
+    z-index: 99;  
+  }
+ .alcove1{
+    position: absolute;
+    top: 10vh;
+    left:10vh;
+    height: 60px;
+    width: 100px;
+    mix-blend-mode:hard-light;
+    mix-blend-mode:luminosity;
+ }
+
+ .kanji2{
+    position: absolute;
+    top: 27vh;
+    left: 91vh;
+    filter: blur(2px);
+    width: 40px;
+    z-index: 99;  
+  }
+ .alcove2{
+    position: absolute;
+    top: 10vh;
+    left: 70vh;
+    height: 60px;
+    width: 100px;
+    mix-blend-mode:hard-light;
+    mix-blend-mode:luminosity;
+
+ }
+ .kanji3{
+    position: absolute;
+    top: 33vh;
+    left: 150vh;
+    filter: blur(2px);
+    width: 40px;
+    z-index: 99;  
+  }
+ .alcove3{
+    position: absolute;
+    top: 10vh;
+    left: 130vh;
+    height: 60px;
+    width: 100px;
+    mix-blend-mode:hard-light;
+    mix-blend-mode:luminosity;
+
+ }
+ .kanji4{
+    position: absolute;
+    top: 73vh;
+    left: 30vh;
+    filter: blur(2px);
+    width: 40px;
+    z-index: 99;  
+  }
+ .alcove4{
+    position: absolute;
+    top: 50vh;
+    left: 10vh;
+    height: 60px;
+    width: 100px;
+    mix-blend-mode:hard-light;
+    mix-blend-mode:luminosity;
+
+ }
+ .kanji5{
+    position: absolute;
+    top: 73vh;
+    left: 88vh;
+    filter: blur(2px);
+    width: 40px;
+    z-index: 99;  
+    
+  }
+ .alcove5{
+    position: absolute;
+    top: 50vh;
+    left: 70vh;
+    height: 60px;
+    width: 100px;
+    mix-blend-mode:hard-light;
+    mix-blend-mode:luminosity;
+   
+
+ }
+ .kanji6{
+    position: absolute;
+    top: 78vh;
+    left: 149vh;
+    filter: blur(2px);
+    width: 40px;
+    z-index: 99;  
+  }
+ 
+ .alcove6{
+    position: absolute;
+    top: 50vh;
+    left: 130vh;
+    width: 100px;
+    mix-blend-mode:hard-light;
+    mix-blend-mode:luminosity;
+
+ }
+ 
+ .back{
+    position: fixed;
+    left: 5%;
+    top: 50%;
+    font-family:monospace;
+    line-height: 1.1;
+    font-weight: 400;
+    color:#9B8D79;
+    filter: blur(1px);
+    font-size: 20px; 
+    z-index: 99;  
+        }
+  
+  
+  
+  .next{
+    position: fixed;
+    left:95%;
+    top: 50%;
+    font-family:monospace;
+    line-height: 1.1;
+    font-weight: 400;
+    color:#9B8D79;
+    filter: blur(1px);
+    font-size: 20px; 
+    z-index: 99;  
+    
+        }
+  .next:hover{
+          position: fixed;
+          left:95%;
+          top: 50%;
+          font-family:monospace;
+          line-height: 1.1;
+          font-weight: 400;
+          color: #9B8D79;
+          font-size: 20px;   
+              }

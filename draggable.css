@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9B8D79;
+    background-image: linear-gradient( to bottom, #9B8D79,  #ffffff);
+    height: 400vh;
+    width: 100vh;
+  }
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 800vh;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .9;
+    visibility: visible;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
+ 
+#container {
+    position: relative;
+  }
+
+  .draggable-element {
+    height:300px;
+    width: 480px;
+    background-color:#1f1e20;
+    border-radius: 50% ;
+    position: absolute;
+    cursor: move;
+    opacity:30%;
+    left:  30%;
+    top: 35%;
+    font-family:monospace;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  }
+.kanji20{
+    position: absolute;
+    top: 20vh;
+    left: 110vh;
+    filter: blur(5px);
+    width: 35px;
+  }
+  .kanji21{
+    position: absolute;
+    top: 60vh;
+    left: 23vh;
+    filter: blur(5px);
+    width: 35px;
+  }
+  .kanji22{
+    position: absolute;
+    top: 85vh;
+    left: 154vh;
+    filter: blur(5px);
+    width: 65px;
+  }
+    .kanji23{
+      position: absolute;
+      top: 120vh;
+      left: 5vh;
+      filter: blur(5px);
+      width: 95px;
+    }
+    .kanji24{
+      position: absolute;
+      top: 140vh;
+      left: 86vh;
+      filter: blur(5px);
+      width:95px;
+    }
+    .kanji25{
+      position: absolute;
+      top: 180vh;
+      left: 27vh;
+      filter: blur(5px);
+      width: 95px;
+    }
+    .kanji26{
+      position: absolute;
+      top: 220vh;
+      left: 138vh;
+      filter: blur(5px);
+      width: 95px;
+    }
+    .kanji27{
+      position: absolute;
+      top: 240vh;
+      left: 109vh;
+      filter: blur(5px);
+      width: 95px;
+      
+    }
+    .kanji28{
+      position: absolute;
+      top: 260vh;
+      left: 151vh;
+      filter: blur(5px);
+      width: 95px;
+      
+    }
+    .kanji29{
+      position: absolute;
+      top: 330vh;
+      left: 132vh;
+      filter: blur(5px);
+      width: 95px;
+      
+
+    }
+    .kanji30{
+        position: absolute;
+        top: 370vh;
+        left: 22vh;
+        filter: blur(5px);
+        width: 95px;
+       
+  
+      }
+      
+.back{
+  position: fixed;
+  left: 5%;
+  top: 50%;
+  font-family:monospace;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #ffffff;
+  filter: blur(2px);
+  font-size: 20px;   
+      }
+
+.back:hover{
+  position: fixed;
+  left: 5%;
+  top: 50%;
+  font-family:monospace;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;   
+      }
+
+.next{
+  position: fixed;
+  left:95%;
+  top: 50%;
+  font-family:monospace;
+  line-height: 1.1;
+  font-weight: 400;
+  color: #ffffff;
+  filter: blur(2px);
+  font-size: 20px;   
+      }
+.next:hover{
+        position: fixed;
+        left:95%;
+        top: 50%;
+        font-family:monospace;
+        line-height: 1.1;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 20px;   
+            }

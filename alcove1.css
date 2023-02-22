@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b6a087;
+    height: 100vh;
+    width: 100vh;
+  }
+  .bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 800vh;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .9;
+    visibility: visible;
+  }
+  
+  @keyframes bg-animation {
+      0% { transform: translate(0,0) }
+      10% { transform: translate(-5%,-5%) }
+      20% { transform: translate(-10%,5%) }
+      30% { transform: translate(5%,-10%) }
+      40% { transform: translate(-5%,15%) }
+      50% { transform: translate(-10%,5%) }
+      60% { transform: translate(15%,0) }
+      70% { transform: translate(0,10%) }
+      80% { transform: translate(-15%,0) }
+      90% { transform: translate(10%,5%) }
+      100% { transform: translate(5%,0) }
+  }
+  p{
+    width: 500px;
+    position: absolute;
+    left:  36%;
+    top: 25%;
+    font-family:monospace;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  }
+  .alcove{
+    position: absolute;
+    top: 12vh;
+    left: 60vh;
+    width: 200px;
+    mix-blend-mode:multiply;
+
+  }
+  .alcove2{
+    position: absolute;
+    top: -2vh;
+    left: 47vh;
+    width: 300px;
+    mix-blend-mode:multiply;
+
+  }
+  .back{
+    position: fixed;
+    left: 5%;
+    top: 50%;
+    font-family:monospace;
+    line-height: 1.1;
+    font-weight: 400;
+    color:#2e2e2e;
+    filter: blur(1px);
+    font-size: 20px;   
+        }
+  
+  .back:hover{
+    position: fixed;
+    left: 5%;
+    top: 50%;
+    font-family:monospace;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #2e2e2e;
+    font-size: 20px;   
+        }
+  
+  .next{
+    position: fixed;
+    left:95%;
+    top: 50%;
+    font-family:monospace;
+    line-height: 1.1;
+    font-weight: 400;
+    color:#2e2e2e;
+    filter: blur(1px);
+    font-size: 20px;   
+        }
+  .next:hover{
+          position: fixed;
+          left:95%;
+          top: 50%;
+          font-family:monospace;
+          line-height: 1.1;
+          font-weight: 400;
+          color: #2e2e2e;
+          font-size: 20px;   
+              }
